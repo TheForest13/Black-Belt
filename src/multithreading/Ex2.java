@@ -8,6 +8,7 @@ public class Ex2 extends Thread{
         }
 
     }
+
     public static void main(String[] args) {
         Ex2 thread1 = new Ex2();
         thread1.start();

@@ -46,15 +46,15 @@ class Test {
         Predicate<Student> p1 = p -> p.avgGrade > 7.5;
         Predicate<Student> p2 = p -> p.sex == 'm';
         info.testStudents(students, p1.and(p2));
-        System.out.println("====================================");
-        Predicate<Student> p3 = p -> p.avgGrade > 7.5;
-        Predicate<Student> p4 = p -> p.sex == 'm';
-        info.testStudents(students, p3.or(p4));
-
-        System.out.println("====================================");
-        Predicate<Student> p5 = p -> p.avgGrade > 7.5;
-        Predicate<Student> p6 = p -> p.sex == 'm';
-        info.testStudents(students, p6.negate());
+//        System.out.println("====================================");
+//        Predicate<Student> p3 = p -> p.avgGrade > 7.5;
+//        Predicate<Student> p4 = p -> p.sex == 'm';
+//        info.testStudents(students, p3.or(p4));
+//
+//        System.out.println("====================================");
+//        Predicate<Student> p5 = p -> p.avgGrade > 7.5;
+//        Predicate<Student> p6 = p -> p.sex == 'm';
+//        info.testStudents(students, p6.negate());
 
     }
 }
